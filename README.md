@@ -100,7 +100,7 @@
     # 서버 db 들어가는 사진!
     ```
     
-    ![image (6) (1).png](https://prod-files-secure.s3.us-west-2.amazonaws.com/cbb7da87-1b39-429d-b9a7-42e9c68c2314/12fc15e7-128f-4224-913d-13e732d7348a/image_(6)_(1).png)
+    ![서버 db 들어가는 사진](https://github.com/TaeHeumPark/We-are-not-weak/assets/69237887/85727586-34ee-4ec5-9f75-529082da39fd)
     
 
 ### 2-2. Frontend
@@ -164,7 +164,7 @@ vi .env
 
 # 4. 배포 환경 Setting
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cbb7da87-1b39-429d-b9a7-42e9c68c2314/329b6d19-43f6-4d99-87e5-4697a5627766/Untitled.png)
+![배포 환경 Setting](https://github.com/TaeHeumPark/We-are-not-weak/assets/69237887/71812bda-7e18-42ed-916e-84fd55b9fcd5)
 
 - **EC2에 Docker 설치하기**
     1. docker 설치
@@ -215,7 +215,7 @@ sudo vim docker-compose.yml
 # (:wq) : 저장, 나오기
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cbb7da87-1b39-429d-b9a7-42e9c68c2314/cb039d53-b342-44ed-b189-4921884aff99/Untitled.png)
+![Jenkins 설치하기](https://github.com/TaeHeumPark/We-are-not-weak/assets/69237887/104b5478-6859-4a7d-91ef-0aedc996f721)
 
 ```bash
 sudo docker-compose up -d
@@ -260,13 +260,13 @@ dudehdrudehxoals(영동경도태민)209
 
 - jenkins project 생성
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cbb7da87-1b39-429d-b9a7-42e9c68c2314/58c3062d-9e7f-41c1-ab12-4ebefafd300f/Untitled.png)
+![jenkins project 생성](https://github.com/TaeHeumPark/We-are-not-weak/assets/69237887/ceb25ed7-7fd9-429f-9e91-0ec83c5c933c)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cbb7da87-1b39-429d-b9a7-42e9c68c2314/a1960939-ae5e-46c9-a3c5-c5d7bc80fb13/Untitled.png)
+![jenkins project 생성 결과](https://github.com/TaeHeumPark/We-are-not-weak/assets/69237887/6740b833-7650-4573-85dd-efb0f2604ed1)
 
 - webhook 생성
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cbb7da87-1b39-429d-b9a7-42e9c68c2314/2f23d691-a658-4dec-9e08-4afe0d0dfbab/Untitled.png)
+![webhook 생성](https://github.com/TaeHeumPark/We-are-not-weak/assets/69237887/0a869bac-69a8-4849-a5e1-e93d0bbf11a4)
 
 ### 2. Jenkins pipeline SCM 작성하기
 
@@ -341,20 +341,18 @@ ENTRYPOINT ["java","-jar","/app.jar"]
     - 젠킨스 계정 → 구성 → pipeline
     지워진 부분 - 1. 연결 깃 주소 2. 본인 이메일 
     
-    ![화면 캡처 2023-07-30 004139.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/cbb7da87-1b39-429d-b9a7-42e9c68c2314/cabdc946-92eb-479b-a493-0328a5f1e5e7/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2023-07-30_004139.png)
+    ![pipeline설정 (연결 깃, Jenkinsfile 경로 설정 해주기)](https://github.com/TaeHeumPark/We-are-not-weak/assets/69237887/b78c28e0-cfd6-4ae8-8076-d210fe10c841)
     
     - 파일 구성(Jenkinsfile, Dockerfile 위치!)
         
-        ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cbb7da87-1b39-429d-b9a7-42e9c68c2314/b645deb9-4c66-47b0-aaff-b5fe0cee5055/Untitled.png)
+       ![파일 구성(Jenkinsfile, Dockerfile 위치)](https://github.com/TaeHeumPark/We-are-not-weak/assets/69237887/06d7829c-4878-47b4-b406-5e97ce1a53c5)
         
     
     - 초록색으로 뜨면 성공
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cbb7da87-1b39-429d-b9a7-42e9c68c2314/750962c2-f08c-4eda-940a-053bca572b01/Untitled.png)
+    ![초록색으로 뜨면 성공](https://github.com/TaeHeumPark/We-are-not-weak/assets/69237887/19475708-a1a5-4948-8637-e441677ef73e)
     
-    [application.properties](http://application.properties) 파일 서버에 올려주기
-    
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cbb7da87-1b39-429d-b9a7-42e9c68c2314/0dbb6872-33c7-4864-af94-7cd6bf870f69/Untitled.png)
+    ![application properties 파일 서버에 올려주기](https://github.com/TaeHeumPark/We-are-not-weak/assets/69237887/26e19f93-fb93-4ef3-adb1-2252cd8b8a07) 파일 서버에 올려주기
     
 - **nginx 설치 & SSL 인증서**
 
@@ -386,8 +384,6 @@ sudo ufw allow https
 sudo vim /etc/nginx/sitex-available/nginx.conf
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cbb7da87-1b39-429d-b9a7-42e9c68c2314/16d96ef6-c81f-4ddf-b8ed-2a7a771fb921/Untitled.png)
-
 ```bash
 #sites-enabled에 심볼릭 링크 생성
 sudo ln -s /etc/nginx/sites-available/nginx.conf /etc/nginx/sites-enabled
@@ -412,13 +408,13 @@ sudo vi /etc/redis/redis.conf
 1. S3 Storage Service 진입
 2. Bucket 만들기
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cbb7da87-1b39-429d-b9a7-42e9c68c2314/9f85b6ff-40c8-4d58-b60f-8ce91e60a60f/Untitled.png)
+    ![Bucket 만들기](https://github.com/TaeHeumPark/We-are-not-weak/assets/69237887/baf5da6d-9a3d-488e-9c20-25c67665f923)
     
     ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cbb7da87-1b39-429d-b9a7-42e9c68c2314/a0617496-1434-4298-ae8c-fbdd0cc9723c/Untitled.png)
     
 3. Bucket에 File 업로드
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cbb7da87-1b39-429d-b9a7-42e9c68c2314/23854168-0415-4027-b5a8-77e86be6cdac/Untitled.png)
+   ![Bucket에 File 업로드](https://github.com/TaeHeumPark/We-are-not-weak/assets/69237887/ef31be38-03c8-493c-840b-3f00c7141600)
     
 4. Bucket과 객체의 Access 권한 설정
     
@@ -426,7 +422,7 @@ sudo vi /etc/redis/redis.conf
     
     **이로 인해, AWS로 부터 과도한 과금이 청구 될 수 있으니, 시험을 완료한 후에는 반드시 다시 활성화를 해놓도록 한다.**
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cbb7da87-1b39-429d-b9a7-42e9c68c2314/9fab3b61-18be-434c-aa2e-e679a16fe66b/Untitled.png)
+    ![Bucket과 객체의 Access 권한 설정](https://github.com/TaeHeumPark/We-are-not-weak/assets/69237887/39a7f243-c230-4f2a-ac38-3d72bb7cd6ef)
     
     ### 스프링 연동하기
     
