@@ -1,0 +1,15 @@
+.border {
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+  width: 50.4375rem;
+  height: 1rem;
+}
+
+.div {
+  width: 52.125rem;
+  height: 4.75rem;
+  border: 3px solid #40bfff;
+  border-radius: 0.8125rem;
+}

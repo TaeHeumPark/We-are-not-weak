@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'Apple';
+  src: url('./AppleSDGothicNeoB.ttf') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GangwonState';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/GangwonState.woff2')
+    format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'YeongdeokCrab';
+  src: url('./Yeongdeok\ Snow\ Crab.ttf') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'KBO-Dia-Gothic_bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/KBO-Dia-Gothic_bold.woff')
+    format('woff');
+  /* font-weight: 700;
+  font-style: normal; */
+}
+
+@font-face {
+  font-family: 'HANAMDAUM';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/HANAMDAUM.woff2')
+    format('woff2');
+  /* font-weight: 400;
+  font-style: normal; */
+}
+
+@font-face {
+  font-family: 'neurimboGothicRegular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/neurimboGothicRegular.woff2')
+    format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MBC1961GulimM';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/MBC1961GulimM.woff2')
+    format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TheJamsil5Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2')
+    format('woff2');
+  /* font-weight: 700;
+  font-style: normal; */
+}
+
+@font-face {
+  font-family: 'KCC-Ganpan';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCC-Ganpan.woff2')
+    format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IAMAPLAYER';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/IAMAPLAYER.woff2')
+    format('woff2');
+  /* font-weight: normal;
+  font-style: normal; */
+}
+
+@font-face {
+  font-family: 'Apple';
+  src: url('./AppleSDGothicNeoB.ttf') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Apple';
+  src: url('./AppleSDGothicNeoB.ttf') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}

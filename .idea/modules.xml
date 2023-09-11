@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/S09P12B209.iml" filepath="$PROJECT_DIR$/.idea/S09P12B209.iml" />
+<<<<<<< HEAD
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cartel.main.iml" filepath="$PROJECT_DIR$/.idea/modules/cartel.main.iml" />
+>>>>>>> a60a689bd317bd52969dd494605e87f5bac51a00
+    </modules>
+  </component>
+</project>
