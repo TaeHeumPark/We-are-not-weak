@@ -142,7 +142,7 @@ Git-flow에는 5가지 종류의 브랜치가 존재합니다. 항상 유지되�
 
 ## 작업 유형
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cbb7da87-1b39-429d-b9a7-42e9c68c2314/dfc154fe-534a-4c7c-b861-b56b3fbc26cf/Untitled.png)
+![Jira 작업 유형](https://github.com/TaeHeumPark/We-are-not-weak/assets/69237887/f342061f-f114-4e3d-9f39-39fa62f968e1)
 
 ### 에픽
 
