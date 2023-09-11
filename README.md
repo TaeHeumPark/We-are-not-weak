@@ -106,8 +106,7 @@ Related to: #48, #45
 ```
 
 ## Branch 명명 규칙 및 전략
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cbb7da87-1b39-429d-b9a7-42e9c68c2314/755657ef-06a6-4d6d-b999-e48ae7208bfe/Untitled.png)
+![Branch 명명 규칙 및 전략](https://github.com/TaeHeumPark/We-are-not-weak/assets/69237887/917d664f-fdbd-411a-9dc7-44375bfe683d)
 
 Git-flow 전략 간단하게 살펴보기
 Git-flow를 사용했을 때 작업을 어떻게 하는지 살펴보기 전에 먼저 Git-flow에 대해서 간단히 살펴보겠습니다.
