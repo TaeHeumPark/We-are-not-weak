@@ -473,19 +473,6 @@ sudo vi /etc/redis/redis.conf
 
 # 개발 환경 가이드
 
-1. 개발 컨벤션
-
-[Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
-
-[](https://nuli.navercorp.com/data/convention/NHN_Coding_Conventions_for_Markup_Languages.pdf)
-
-1. Git 컨벤션
-2. Jira 컨벤션
-
----
-
-# 개발 환경 가이드
-
 # 개발 컨벤션
 
 네이버 Java 컨벤션 : https://naver.github.io/hackday-conventions-java/
