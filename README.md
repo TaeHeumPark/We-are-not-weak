@@ -60,6 +60,7 @@
 <hr/>
 
 ## 1. 회원가입
+
 - 일반 회원과 상담사 회원을 구분합니다. <br>
 - 이메일 인증 코드를 Redis에 저장 후 비교합니다.
 ![회원가입](https://github.com/TaeHeumPark/We-are-not-weak/assets/69237887/470d8498-bd68-4fde-84b8-67d5f67c2f90)
