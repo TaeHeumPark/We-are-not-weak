@@ -60,44 +60,55 @@
 <hr/>
 
 ## 1. 회원가입
-
-- 일반 회원과 상담사 회원을 구분합니다. <br>
+- 일반 회원과 상담사 회원을 구분합니다.
 - 이메일 인증 코드를 Redis에 저장 후 비교합니다.
+<br>
+
 ![회원가입](https://github.com/TaeHeumPark/We-are-not-weak/assets/69237887/470d8498-bd68-4fde-84b8-67d5f67c2f90)
 <br>
 <br>
 
 ## 2. 로그인
-jwt 로그인으로 구현하였습니다.
+- jwt 로그인으로 구현하였습니다.
+<br>
+
 ![일반로그인](https://github.com/TaeHeumPark/We-are-not-weak/assets/69237887/9c1e5c55-64ad-4321-b628-db0f7547f189)
 ![ㅁ](https://github.com/TaeHeumPark/We-are-not-weak/assets/69237887/ede655c7-5608-4a33-a791-b451f82812bc)
 <br>
 <br>
 
 ## 3. 메인 화면
-깔끔한 디자인과 서비스가 한눈에 들어오도록 설계했습니다.
+- 깔끔한 디자인과 서비스가 한눈에 들어오도록 설계했습니다.
+<br>
+
 ![메인1](https://github.com/TaeHeumPark/We-are-not-weak/assets/69237887/4adfc798-2830-4fb0-9615-b73f50edc305)
 ![메인2](https://github.com/TaeHeumPark/We-are-not-weak/assets/69237887/e16c2344-fe1c-45d6-a5b6-c0f8925d115c)
 <br>
 <br>
 
 ## 4. 상담 리스트
-현재 모집 중인 상담 목록을 보여줍니다. <br>
-상담사 아이디로 로그인시 상담 개설 버튼이 활성화 됩니다.<br>
-실시간 검색이 가능하도록 구현했습니다.
+- 현재 모집 중인 상담 목록을 보여줍니다.
+- 상담사 아이디로 로그인시 상담 개설 버튼이 활성화 됩니다.
+- 실시간 검색이 가능하도록 구현했습니다.
+<br>
+
 ![상담목록조회](https://github.com/TaeHeumPark/We-are-not-weak/assets/69237887/c2cb5197-31b9-45d7-bcac-aea750caeb54)
 <br>
 <br>
 
 ## 5. 상담 개설
-상담사는 필요한 정보를 입력 후 상담을 개설할 수 있습니다.
+- 상담사는 필요한 정보를 입력 후 상담을 개설할 수 있습니다.
+<br>
+
 ![상담 개설하기](https://github.com/TaeHeumPark/We-are-not-weak/assets/69237887/fe2c9049-fd7c-4499-8331-9f940da2a720)
 <br>
 <br>
 
 ## 6. 상담 상세 정보
-상담의 상세 정보를 열람 후 내담자는 결제를 진행할 수 있습니다.<br>
-결제 후에는 각 커리큘럼(주차별)마다 상담 입장하기 버튼이 활성화 됩니다.
+- 상담의 상세 정보를 열람 후 내담자는 결제를 진행할 수 있습니다.
+- 결제 후에는 각 커리큘럼(주차별)마다 상담 입장하기 버튼이 활성화 됩니다.
+<br>
+
 ![상담디테일](https://github.com/TaeHeumPark/We-are-not-weak/assets/69237887/c3266639-73d0-49d0-9b9a-429f2d984af6)
 ![상담결제](https://github.com/TaeHeumPark/We-are-not-weak/assets/69237887/9c60e382-a037-4646-b87a-37671781508a)
 ![상담디테일(입장)](https://github.com/TaeHeumPark/We-are-not-weak/assets/69237887/f7ae21e8-7715-4201-90e5-d3e3830313ca)
@@ -105,10 +116,12 @@ jwt 로그인으로 구현하였습니다.
 <br>
 
 ## 7. 실시간 상담
-OpenVidu를 사용해 WebRTC를 구현했습니다.<br>
-SessionId는 해당 커리큘럼의 id로 관리합니다.<br>
-상담사는 실시간으로 원하는 내담자의 상담일지를 기록할 수 있습니다. 상담일지는 갑작스런 버그, 네트워크 문제 등을 예방하기 위해 실시간으로 localStorage에 저장 되며, 상담이 종료 되는 시점에 한 번에 DB에 저장 됩니다.<br>
-내담자는 상담이 끝날 때 해당 회차의 소감문을 기록할 수 있습니다.
+- OpenVidu를 사용해 WebRTC를 구현했습니다.
+- SessionId는 해당 커리큘럼의 id로 관리합니다.
+상담사는 실시간으로 원하는 내담자의 상담일지를 기록할 수 있습니다. 상담일지는 갑작스런 버그, 네트워크 문제 등을 예방하기 위해 실시간으로 localStorage에 저장 되며, 상담이 종료 되는 시점에 한 번에 DB에 저장 됩니다.
+- 내담자는 상담이 끝날 때 해당 회차의 소감문을 기록할 수 있습니다.
+<br>
+
 ![상담 대기방](https://github.com/TaeHeumPark/We-are-not-weak/assets/69237887/148d8a24-7915-4b4a-9a4c-952d9d599488)
 ![상담 진행](https://github.com/TaeHeumPark/We-are-not-weak/assets/69237887/051e64da-71c9-4f28-b931-250af7b22996)
 ![소감문](https://github.com/TaeHeumPark/We-are-not-weak/assets/69237887/5103a418-a251-40d1-b25a-3b67f1c2c667)
